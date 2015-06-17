@@ -1,5 +1,5 @@
 # Security eindopdracht
-Deze tool maakt het mogelijk om doormiddel van LocalStorage berichten versleuteld op te slaan. Hierbij heb ik gebruik gemaakt van het crypto-js framework van Google. Daarnaast wordt gebruik gemaakt van HTML (pagina opmaak), CSS (styles) & JQuery (notifications).
+Deze tool maakt het mogelijk om doormiddel van LocalStorage berichten encrypted op te slaan. Hierbij heb ik gebruik gemaakt van het crypto-js framework van Google. Daarnaast wordt gebruik gemaakt van HTML (pagina opmaak), CSS (styles) & JQuery (notifications).
 
 # Notifications
 Bovenaan functions/main.js vind je twee notifications classes. Deze worden overal gebruikt om korte berichten naar gebruikers te sturen. Dit is makkelijk aangezien hierdoor een wijziging maar op één plek hoeft te gebeuren en je vaak gebruik maakt van messages.
