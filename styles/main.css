@@ -1,0 +1,11 @@
+.container { width:500px; margin-right:auto; margin-left:auto; }
+input,
+textarea { width:250px; background:#F0F0F0; border:1px solid #000; }
+input { padding:5px; }
+textarea { padding:10px 5px; }
+
+table { }
+table tr { }
+table tr td { }
+
+a.active { color:#000; text-decoration:none; cursor:default; }
