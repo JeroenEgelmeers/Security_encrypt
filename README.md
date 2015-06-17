@@ -11,4 +11,4 @@ Daarna wordt een encryptedString aangemaakt d.m.v. (CryptoJS.AES.encrypt(BERICHT
 Slaagt het proces, dan ontvangt de gebruiker hier bericht van.
 
 # Decrypt
-Zodra een gebruiker een bericht opvraagt wordt eerst gecontroleerd of zowel de naam als het wachtwoord kloppen. Mits dit het geval is en er een bericht wordt gevonden d.m.v. deze combinatie wordt het bericht getoond op de pagina.
+Zodra een gebruiker een bericht opvraagt wordt eerst gecontroleerd of zowel de naam als het wachtwoord kloppen en alle velden zijn ingevuld. Mits dit het geval is en er een bericht wordt gevonden d.m.v. deze combinatie wordt het bericht getoond op de pagina d.m.v. deze functie: decryptMessage(BERICHT, NAAM, WACHTWOORD);
