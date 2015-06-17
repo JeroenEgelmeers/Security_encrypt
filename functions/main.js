@@ -9,6 +9,11 @@ function clearNotification(timeoutTime) {
 	}
 }
 
+function showNotification(_notification, _divID, _timeoutTime) {
+	$("#"+_divID+"").html("<p>"+ _notification +"</p>");
+	clearNotification(_timeoutTime);
+}
+
 function cryptMessage(_name, _password, _message) {
 	// Check if fields are filled in.
 	if (_name != "" && _password != "" && _message != "") {
@@ -32,11 +37,6 @@ function cryptMessage(_name, _password, _message) {
 	}else {
 		showNotification("Niet alle velden zijn juist ingevuld.", "notification", 5000);
 	}
-}
-
-function showNotification(_notification, _divID, _timeoutTime) {
-	$("#"+_divID+"").html("<p>"+ _notification +"</p>");
-	clearNotification(_timeoutTime);
 }
 
 function decryptMessage(_message, _name, _password) {
