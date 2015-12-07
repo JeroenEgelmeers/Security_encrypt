@@ -1,4 +1,4 @@
-# Security eindopdracht
+# Security eindopdracht - Avans Hogeschool
 Deze tool maakt het mogelijk om doormiddel van LocalStorage berichten encrypted op te slaan. Hierbij heb ik gebruik gemaakt van het crypto-js framework van Google. Daarnaast wordt gebruik gemaakt van HTML (pagina opmaak), CSS (styles) & JQuery (notifications).
 
 # Notifications
